@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@media (max-width: 480px){
+    .visit .visit-grid {float: none;width: 100%;padding:0 1em 2em 1em;}
+    .people .container .people-top p{font-size:1em;width: 100%;}
+    .people .container .people_bottom .item{float:none;}
+    .people .container .people_bottom img{width:100%;}
+}
+
+
+@media(max-width: 640px){
+     .nav .menu{display:block}
+     .nav ul{display:none;}
+    .visit-top span.rit-bar-fea,.features-top span.lft-bar-fea,.features-top span.rit-bar-fea,.visit-top span.lft-bar-fea{display:none}
+    .people .container .people-top .left_bar, .people .container .people-top .right_bar{display:none}
+    .section1 .container .left_bar,.section1 .container .right_bar{display:none}
+    .people .container .people-top p{font-size:1em;width: 90%;}
+}
+
+@media (max-width: 970px){
+
+}
